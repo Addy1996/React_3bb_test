@@ -1,0 +1,74 @@
+img.rp{
+    height: 50.5%;
+    width: 100%;
+    max-width: 300px;
+    
+}
+img.t-rp{
+    height: 60.5%;
+    width: 100%;
+    max-width:200px;
+    margin: 0 auto;
+    
+}
+.card {
+    max-width: 265px;
+    margin: 0px;
+    text-align: center;
+    border: none;
+    
+  }
+
+.card h2{
+    float: left;
+    font-size: 1.0em;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.card h3{
+    float: left;
+    font-size: 1.0em;
+    margin-top: 7%;
+    margin-left: -20%;
+    
+}
+.card h4{
+    float: right;
+    font-size: 1.0em;
+    margin-top: -3%;
+    margin-right: 8%;
+   
+}
+.card h5{
+    float: right;
+    font-size: 1.0em;
+    margin-top: -2%;
+    margin-right: 5%;
+    
+}
+  
+  button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #f5921c;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 22px;
+  
+ 
+
+  }
+
+  .h-rp{
+    float: left;
+    font-size: 1.0em;
+    margin-top: 7%;
+    margin-left: 8%;
+
+
+  }

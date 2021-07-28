@@ -1,0 +1,22 @@
+.p img{
+    height: 50.5%;
+    width: 100%;
+    max-width: 550px;
+    
+}
+.p{ height: auto;
+    max-width:300px;
+    margin: 0px;
+    border: none;
+    color: white;
+  
+
+}
+.p h2{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     font-size: 1.3em;
+}
+.p p{
+    font-size: 0.9em;
+}

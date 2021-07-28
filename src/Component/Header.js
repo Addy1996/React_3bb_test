@@ -5,7 +5,7 @@ import logo from "../img/3BB_logo_popup.png";
 import "../Component/Header.css";
 
 const Header = ()=> {
-    return<div className="container">
+    return<div className="container-fluid">
     <div className ="navbar">
       <div class="dropdown">
       <button class="dropbtn"><FontAwesomeIcon icon={faBars} color="#fa8b1f"/>เมนูหลัก</button>
@@ -45,7 +45,6 @@ const Header = ()=> {
     <a href="#home"><img className = "logo" src={logo}/></a>
       <a href="#home">ช่องทางชำระค่าบริการ</a>
       <a href="#news">ช่วยเหลือ</a>
-      <a><button>เข้าสู่ระบบ</button></a>
   </div>
   <div class="topnav">
   <a href="#">หน้าแรก</a> 

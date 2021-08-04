@@ -11,11 +11,12 @@ img.t-rp{
     margin: 0 auto;
     
 }
-.card {
+div.card {
     max-width: 265px;
     margin: 0px;
     text-align: center;
     border: none;
+    background-color: white;
     
   }
 
@@ -24,6 +25,7 @@ img.t-rp{
     font-size: 1.0em;
     margin-top: 7%;
     margin-left: 8%;
+    
 }
 .card h3{
     float: left;
@@ -46,8 +48,13 @@ img.t-rp{
     margin-right: 5%;
     
 }
+.muliti-item button{
+
+
+
   
-  button {
+}
+.regis {
     border: none;
     border-radius: 4px;
     color: white;
@@ -58,13 +65,29 @@ img.t-rp{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 22px;
+    margin: 10px 22px;
+    font-family:Kanit-Regular;
+    font-weight: bold;
   }
   .h-rp{
     float: left;
-    font-size: 1.0em;
+    font-size: 1.2em;
     margin-top: 7%;
     margin-left: 8%;
+    font-family:Kanit-Regular;
+    font-weight: bold;
+   
 
 
   }
+  .muliti-card {
+    margin: 0 auto;
+    padding: 0px 60px 60px 60px;
+    width: 66%;
+    margin-top:-85px;
+    margin-left:18%;
+}
+.slick-next:before, .slick-prev:before {
+  color: #000;
+  
+}

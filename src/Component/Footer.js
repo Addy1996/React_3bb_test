@@ -2,6 +2,7 @@ import React from "react";
 import "../Component/Footer.css"
 const Footer = ()=> {
     return<div>
+      
         <div class='some-page-wrapper'>
   <div class='row-f1'>
     <div class='column-f1'>

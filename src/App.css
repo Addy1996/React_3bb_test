@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: "Kanit-ExtraLight";
+    src: local("Kanit-ExtraLight"),
+      url("./Fronts/Kanit-ExtraLight.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Kanit-Thin";
+    src: local("Kanit-Thin"),
+      url("./Fronts/Kanit-Thin.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+  font-family: "Kanit-ExtraBold";
+  src: local("Kanit-ExtraBold"),
+    url("./Fronts/Kanit-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Kanit-Regular";
+  src: local("Kanit-Regular"),
+    url("./Fronts/Kanit-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+body {margin: 0;}

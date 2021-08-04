@@ -156,7 +156,7 @@ const cssstyle = `
   margin: 0 auto;
   padding: 0px 60px 60px 60px;
   width: 75%;
-  margin-top:-85px;
+  margin-top:20px;
   margin-left:13.5%;
   
   
@@ -165,5 +165,27 @@ const cssstyle = `
     color: #000;
     
     
+}
+.p img{
+    height: 50.5%;
+    width: 100%;
+    max-width: 550px;
+    
+}
+.p{ height: auto;
+    max-width:300px;
+    margin: 0px;
+    border: none;
+    color: white;
+  
+
+}
+.p h2{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     font-size: 1.3em;
+}
+.p p{
+    font-size: 0.9em;
 }
 `

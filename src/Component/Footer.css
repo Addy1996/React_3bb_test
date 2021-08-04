@@ -44,36 +44,50 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+ 
+
     
   }
    .column-1 {
     float: left;
-     margin-top: 10%;
-     margin-left: 260px;
+    padding-left: 260px;
+    padding-right: 0px;
+    margin-top: 10%;
   }  
   
   .column-2 {
+    float: left;
     margin-top: 10%;
-    margin-left: 160px;
-   
+    padding-left: 185px;
+    padding-right: 0px;
   }  
   
   .column-3 {
+    float: left;
     margin-top: 10%;
-    margin-left: 100px;
+    padding-left: 125px;
+    padding-right: 0px;
+
+    
   }
 
   .column-4 {
+    float: left;
     margin-top: 10%;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 0px;
+    
+    
     
   }
 
   .column-5 {
+    float: left;
     margin-top: 20%;
-    margin-right: 200px;
+   
     
-  }
+    
+  } 
   .column-f1 p{
     font-size: 1.0em;
 
@@ -115,7 +129,12 @@
       width: 100%;
       padding-top: 55px;
   }
+  .column-foot3-1
+  {
 
+    margin-left: 140px;
+
+  }
   a.sub:link {color:#ff0000;text-decoration:none;}
   a.sub:visited {color:white ;text-decoration:none;}
   a.sub:hover {text-decoration:underline;}

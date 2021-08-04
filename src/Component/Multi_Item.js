@@ -18,27 +18,8 @@ export default class Multi_Item extends Component {
 			speed: 1000,
 			cssEase: "linear"
 		};
-const cssstyle = `
-.container {
-  margin: 0 auto;
-  padding: 0px 60px 60px 60px;
-  width: 66%;
-  margin-top:-85px;
-  margin-left:18%;
 
-}
-.slick-next:before, .slick-prev:before {
-color: #000;
-
-
-}
-`
-		return (
-			<div className="container">
-				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-				<style>{cssstyle}</style>
-			
+return(<div className="muliti-card">		
 	<Slider {...settings}>
 	<div className = "card">
 	<img className ="rp" src = {rp1}/>
@@ -48,7 +29,7 @@ color: #000;
   <h3>/ 100 Mbps.</h3>
   <h4>590</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp2}/>
@@ -58,7 +39,7 @@ color: #000;
   <h3>/ 300 Mbps.</h3>
   <h4>590</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp3}/>
@@ -68,7 +49,7 @@ color: #000;
   <h3>/ 500 Mbps.</h3>
   <h4>700</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp4}/>
@@ -78,7 +59,7 @@ color: #000;
   <h3>/ 300 Mbps.</h3>
   <h4>690</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp1}/>
@@ -88,7 +69,7 @@ color: #000;
   <h3>/ 100 Mbps.</h3>
   <h4>590</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp2}/>
@@ -98,7 +79,7 @@ color: #000;
   <h3>/ 300 Mbps.</h3>
   <h4>590</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp3}/>
@@ -108,7 +89,7 @@ color: #000;
   <h3>/ 500 Mbps.</h3>
   <h4>700</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 	<div className = "card">
 	<img className ="rp" src = {rp4}/>
@@ -118,7 +99,7 @@ color: #000;
   <h3>/ 300 Mbps.</h3>
   <h4>690</h4><br></br>
   <h5>บาท/เดือน</h5>
-  <p><button>สมัครแพ็กเกจ</button></p>
+  <p><button className="regis">สมัครแพ็กเกจ</button></p>
 	</div>
 				</Slider>
 			</div>

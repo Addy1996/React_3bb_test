@@ -17,7 +17,7 @@ import promot12 from "../img/promot12.png";
 export default class Carousel_p extends Component {
 	render() {
 		const settings = {
-			fade: true,
+		
 			infinite: true,
 			speed: 500,
       		autoplay: true,

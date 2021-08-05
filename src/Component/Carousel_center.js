@@ -13,7 +13,7 @@ import s7 from "../img/s7.png";
 export default class Carousel_center extends Component {
 	render() {
         const settings =  {
-            focusOnSelect: true,
+           
             infinite: true,
             centerMode: true,
             centerPadding: 478,

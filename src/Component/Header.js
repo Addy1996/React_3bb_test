@@ -18,7 +18,7 @@ const Header = () => {
   return <div >
     <div className="menu1">
       <ul className="nav1">
-        <li> <div class="dropdown">
+        <li><div class="dropdown">
           <button class="dropbtn"><BsList className="list-icon" /><h1>เมนูหลัก</h1></button>
           <div class="dropdown-content">
             <div class="row">
@@ -88,8 +88,8 @@ const Header = () => {
         </div>
         </li>
         <li ><img className="logo-icon" src={logo} /></li>
-        <li ><a href="#">ช่องทางชำระค่าบริการ</a></li>
-        <li ><a href="#">ช่วยเหลือ</a></li>
+        <li className ="o-h"><a href="#">ช่องทางชำระค่าบริการ</a></li>
+        <li className ="o-h"><a href="#">ช่วยเหลือ</a></li>
         <li><button className="btn-login"><img className="profile-icon" src={profile} /><h1>เข้าสู่ระบบ</h1></button></li>
         <li>
           <div class="dropdown-l">

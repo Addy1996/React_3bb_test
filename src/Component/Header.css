@@ -84,7 +84,7 @@ li p{
   
   
 }
-.nav1 li a:hover {
+.o-h a:hover {
   color:#f27025;
 }
 .nav2 li a:hover {
@@ -161,9 +161,7 @@ li p{
   column-rule-width: 1px;
   margin-top: 45px;
   margin-left: 200px;
-  
 }
-
 .column-drop-2 {
   float: left;
   margin-left: 40px;

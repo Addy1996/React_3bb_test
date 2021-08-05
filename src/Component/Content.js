@@ -12,6 +12,7 @@ import Privilege from "../img/Privilege.png";
 import Reward_img from "../img/Reward-img.png";
 import BB_Reward from "./BB_Reward";
 import { MdNavigateNext } from "react-icons/md";
+import News from "./News";
 
 
 const Content = () => {
@@ -54,6 +55,7 @@ const Content = () => {
       <BB_Reward />
     </div>
     <div className="div7">
+      <News/>
     </div>
   </div>
 }

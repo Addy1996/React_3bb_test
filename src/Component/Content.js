@@ -13,6 +13,7 @@ import Reward_img from "../img/Reward-img.png";
 import BB_Reward from "./BB_Reward";
 import { MdNavigateNext } from "react-icons/md";
 import News from "./News";
+import bg from "../img/bg2.png"
 
 
 const Content = () => {
@@ -56,6 +57,7 @@ const Content = () => {
     </div>
     <div className="div7">
       <News/>
+      <img className="bg" src = {bg}/>
     </div>
   </div>
 }

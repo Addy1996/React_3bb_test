@@ -41,7 +41,7 @@
         width: 100%;
         height: 900px;
         background-color: white;
-        margin: 0;
+       
 
 }
 h1.color-w
@@ -324,10 +324,9 @@ button.de{
   float: left;
   color: white;
   font-size: 2.5em;
-  margin-top: 2%;
-  
-  
- 
- 
-        
+  margin-top: 2%;  
+}
+.bg{    margin-top: 50px;
+        max-width: 100%;
+        max-width: 100%;
 }
